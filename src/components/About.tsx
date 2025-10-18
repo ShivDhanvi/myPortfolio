@@ -49,8 +49,7 @@ const About = () => {
           {/* Main Content */}
           <div className="grid md:grid-cols-2 gap-12 items-center mb-16">
             {/* add modern profile pictue */}
-            {/* TODO: instead of rectangular box or circle, need to through some animations around a shape like amoeba */}
-            <div className="w-full h-82 md:h-[26rem] bg-gradient-to-tr from-primary/20 to-accent/20 rounded-xl shadow-lg flex items-center justify-center relative">
+            <div className="w-full h-82 md:h-[26rem] bg-gradient-to-tr from-primary/20 to-accent/20 rounded-xl shadow-lg flex items-center justify-center relative max-sm:h-[28rem] sm:h-[28rem] lg:h-[26rem]">
               <img
                 src="/AboutMeImage.png"
                 alt="Its me"
@@ -84,6 +83,16 @@ const About = () => {
                 </span>{" "}
                 — from using ChatGPT for debugging to integrating AI APIs into
                 web apps.
+              </p>
+              <p className="text-lg text-foreground/90 leading-relaxed">
+                I completed my{" "}
+                <span className="font-semibold text-primary">
+                  Master’s in Software Engineering in Paris, France{" "}
+                </span>
+                — My international experience has helped me master{" "}
+                <span className="font-semibold text-accent">
+                  global development practices and effective teaching techniques{" "}
+                </span>
               </p>
               <p className="text-lg text-foreground/90 leading-relaxed">
                 I've mentored developers and students to transform academic

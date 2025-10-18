@@ -103,7 +103,7 @@ const Footer = () => {
           {/* add social media icons and links for twitter, linkedIn& facebook */}
           <div className="flex justify-center space-x-6 mt-6">
             <a
-              href="https://twitter.com/shivaramtechdev"
+              href="https://x.com/software83319"
               target="_blank"
               rel="noopener noreferrer"
               className="text-primary-foreground/70 hover:text-accent transition-colors flex items-center gap-2"
