@@ -12,4 +12,4 @@ Allow: /
 
 User-agent: *
 Allow: /
-Sitemap: https://software83319.netlify.app/sitemap.xml
+Sitemap: https://shivaram-frontend-mentor.netlify.app/sitemap.xml
