@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://shivaram-frontend-mentor.netlify.app/sitemap.xml
+Sitemap: https://shivaram-frontend-mentor.netlify.app/sitemap_1.xml
