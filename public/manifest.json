@@ -1,0 +1,21 @@
+{
+  "name": "Shivaram Prasad - Frontend Developer & Mentor",
+  "short_name": "Shivaram Prasad",
+  "description": "Learn React.js, JavaScript, and AI tools from an experienced Frontend Developer. Join free demo sessions and build real-world apps.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#2563eb",
+  "icons": [
+    {
+      "src": "https://tinyurl.com/2ww7murj",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "https://tinyurl.com/2ww7murj",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}
