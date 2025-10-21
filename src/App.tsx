@@ -8,6 +8,8 @@ import NotFound from "./pages/NotFound";
 import AIDashboard from "./pages/AIDoashboard";
 import WeatherApp from "./pages/WeatherApp";
 import StudentPortal from "./pages/StudentPortal";
+import BlogList from "./pages/BlogList";
+import BlogPost from "./pages/BlogPost";
 
 const queryClient = new QueryClient();
 
@@ -22,6 +24,9 @@ const App = () => (
           <Route path="/projects/ai-dashboard" element={<AIDashboard />} />
           <Route path="/projects/weather-app" element={<WeatherApp />} />
           <Route path="/projects/student-portal" element={<StudentPortal />} />
+          {/* Blog Posts */}
+          <Route path="/blogs" element={<BlogList />} />
+          <Route path="/blogs/:slug" element={<BlogPost />} />
           {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
           <Route path="*" element={<NotFound />} />
         </Routes>

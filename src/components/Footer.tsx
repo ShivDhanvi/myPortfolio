@@ -65,6 +65,14 @@ const Footer = () => {
                     Book Demo
                   </a>
                 </li>
+                <li>
+                  <a
+                    href="/blogs"
+                    className="text-primary-foreground/80 hover:text-accent transition-colors"
+                  >
+                    Blogs
+                  </a>
+                </li>
               </ul>
             </div>
 
@@ -136,6 +144,20 @@ const Footer = () => {
               creatively."
             </p>
           </div>
+
+          {/* SEO footer hide it */}
+          <section className="hidden">
+            <p>
+              Shivaram Prasad offers{" "}
+              <strong>React JS tutoring in Chennai</strong> for beginners and
+              professionals. Classes are available in{" "}
+              <strong>Tamil and English</strong> with affordable fees. Learn{" "}
+              <strong>JavaScript, React, and frontend development</strong> with
+              hands-on real projects. Join from areas like{" "}
+              <strong>Velachery, Tambaram, Guindy, and Adyar</strong> or online
+              across India.
+            </p>
+          </section>
         </div>
       </div>
     </footer>
